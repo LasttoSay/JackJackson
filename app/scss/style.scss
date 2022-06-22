@@ -3,7 +3,25 @@
 @import 'reset';
 @import 'global';
 
+.header{
+  background: #1f464d;
+}
 
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 0;
+  &__link{
+    text-transform: uppercase;
+    color: #e6f6f6;
+    padding: 7px;
+    @extend %rubik-300;
+  }
 
+  &__link:not(:last-child){
+    margin-right: 20px;
+  }
+}
 
 @import 'media';
