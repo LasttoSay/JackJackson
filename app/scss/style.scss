@@ -111,10 +111,14 @@
 
   &__example__item {
     max-width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
   }
 
   &__example__item:not(:last-child){
-    margin: 0 20px 30px 0;
+    margin-right: 20px;
   }
 
   &__example__img-item {
@@ -148,13 +152,18 @@
 
   &__example__description {
     background: $background;
-    padding: 20px 35px;
+    padding: 30px 35px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   &__example__title {
     display: block;
     margin-bottom: 20px;
     font-size: 20px;
+    flex-grow: 1;
   }
 
   &__example__text {
