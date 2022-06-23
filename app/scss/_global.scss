@@ -9,6 +9,7 @@ body {
   background: #333;
   color: #fff;
   font-size: 16px;
+  @extend %dmsans-700;
   line-height: 1.3;
 }
 
