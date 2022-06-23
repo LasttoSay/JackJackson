@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "LasttoSay",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.9",
@@ -298,5 +298,13 @@
     "yargs": "^7.1.2",
     "yargs-parser": "^5.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LasttoSay/JackJackson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LasttoSay/JackJackson/issues"
+  },
+  "homepage": "https://github.com/LasttoSay/JackJackson#readme",
   "description": ""
 }
