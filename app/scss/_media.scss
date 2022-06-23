@@ -61,6 +61,7 @@
 @media (max-width: 576px) {
   .menu {
     justify-content: flex-end;
+    padding: 15px 0;
 
     &__responsive {
       visibility: visible;
