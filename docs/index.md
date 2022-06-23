@@ -1,37 +1,149 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/LasttoSay/JackJackson/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
 
-### Markdown
+  <header class="header">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div class="container">
+      <nav class="menu">
+        
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              home
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              about me
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              my work
+            </a>
+          </li>
+        </ul>
+        
+        <div class="menu__responsive">
+          <div class="menu__responsive-item">
+  
+          </div>
+      
+        </nav>
+    </div>
 
-```markdown
-Syntax highlighted code block
+  </header>
 
-# Header 1
-## Header 2
-### Header 3
+  <main class="main">
 
-- Bulleted
-- List
+    <section class="person-info">
+      <div class="container">
+        <div class="person-info__inner">
 
-1. Numbered
-2. List
+          <div class="person-info__description">
+            <h1 class="person-info__title">
+              jack jackson
+            </h1>
+            <p class="person-info__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum voluptate provident molestiae
+              eveniet
+              reiciendis, odit perspiciatis quibusdam fugit. Magni itaque eaque dolor commodi amet sit accusantium
+              libero
+              perspiciatis est?
+              Sint dolore, vero minus maiores dolorum in obcaecati atque animi rem tempore tenetur at architecto nam
+              magnam saepe et. Facere molestias rerum modi blanditiis nihil soluta in suscipit minima consequuntur.
+              Quia quas, accusantium sapiente ducimus mollitia atque fugiat quod unde quam labore totam dolores aliquid
+              libero reiciendis facere, maxime cum expedita corporis ut! Eum at explicabo maxime nihil aperiam dolorem.
+            </p>
+            <a class="person-info__link" href="#">
+              learn more
+            </a>
+          </div>
 
-**Bold** and _Italic_ and `Code` text
+          <img class="person-info__img" src="images/personInfo/photo.jpg"
+            alt="photo of jack jackson with a cup of some drink">
 
-[Link](url) and ![Image](src)
-```
+        </div>
+      </div>
+    </section>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+    <section class="experience">
+      <div class="container">
 
-### Jekyll Themes
+          <h2 class="experience__title">
+            what i did
+          </h2>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LasttoSay/JackJackson/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+          <ul class="experience__example">
+            
+            <li class="experience__example__item">
+              <a class="experience__example__img" href="#">
+                <img class="experience__example__img-item" src="images/experience/workplace.jpg" alt="image of previous project made by Jack Jackson">
+              </a>
+              <div class="experience__example__description">
+                <a class="experience__example__title" href="#">
+                  epic project
+                </a>
+                <a class="experience__example__text" href="#">
+                  Awesome project i did in 2018. It was big experience for me.
+                </a>
+              </div>
+            </li>
+           
+            <li class="experience__example__item">
+              <a class="experience__example__img" href="#">
+                <img class="experience__example__img-item" src="images/experience/mac.jpg" alt="image of previous project made by Jack Jackson">
+              </a>
+              <div class="experience__example__description">
+                <a class="experience__example__title" href="#">
+                  another work i did
+                </a>
+                <a class="experience__example__text" href="#">
+                  Awesome project i did in 2018. It was big experience for me.
+                </a>
+              </div>
+            </li>
+            
+            <li class="experience__example__item">
+              <a class="experience__example__img" href="#">
+                <img class="experience__example__img-item" src="images/experience/phone.jpg" alt="image of previous project made by Jack Jackson">
+              </a>
+              <div class="experience__example__description">
+                <a class="experience__example__title" href="#">
+                  rebrand of this company
+                </a>
+                <a class="experience__example__text" href="#">
+                  Awesome project i did in 2018. It was big experience for me.
+                </a>
+              </div>
+            </li>
+          
+          </ul>
 
-### Support or Contact
+      </div>
+    </section>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="copy">
+        © jack jackson 2020
+      </p>
+    </div>
+  </footer>
+
+  <script src='js/main.min.js'></script>
+</body>
+
+</html>
